@@ -1,0 +1,463 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>The Realm | Creative Agency | London, Ontario</title>
+	<Link href="css/reset.css" rel="stylesheet" type="text/css" media="screen">
+		<link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed&display=swap" rel="stylesheet">
+		<Link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
+		<script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+        <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .section {
+            width: 100%;
+            background-image: url(../bootcamp/images/full\ image\ with\ logo.pngs);
+          }
+        .section .aboutcontainer {
+            
+            display: block;
+            margin:0px auto;
+            padding: 50px 0px;
+        }
+
+
+        .aboutcontainer .titles h1::after {
+            content:"";
+            height: 5px;
+            width: 100px;
+            background-color: rgb(255, 0, 0);
+            border-radius: 25px;
+            display: block;
+            margin: auto;
+        }
+        .content {
+            float: left ;
+            width: 55%;
+        } 
+        .image-section {
+            float: right;
+            width: 40%;
+        }
+        .image-section img {
+            width: 100%;
+            height: auto;
+        }
+        .content .article h3 {
+            color: rgb(255, 255, 255);
+            font-size: 30px;
+            text-align: start;
+        }
+        .content .article p {
+            margin-top: 20px;
+            font-size: 16px;
+            line-height: 1.5s;
+            color: rgb(255, 255, 255);
+            text-align: start;
+        }
+        .content .article .button { 
+            margin-top: 50px;
+            text-align: start;
+        }
+        .content .article .button a {
+            text-decoration: none;
+            padding: 8px 25px;
+            background-color: #00CBF3;
+            border-radius: 40px;
+            color: rgb(255, 255, 255);
+            font-size: 10px;
+            letter-spacing: 1.5px;
+        }
+        .content .article .button a:hover {
+            color: rgb(15, 205, 247);
+            background-color: rgb(79, 234, 44);
+            transition:  1s ease;
+        }
+        @media screen and (max-width: 768px) {
+            .secction .container{
+                width: 80%;
+                display: block;
+                margin: auto;
+            }
+            .content {
+                float: none;
+                width: 100%;
+                display: block;
+                margin: auto;
+            }
+            .image-section {
+                float: none;
+                width: 100%;
+                margin-top: 50px;
+            }
+            .image-section img{
+                width: 100%;
+                height: auto;
+                display: block;
+                margin: auto;    
+            }
+            .aboutcontainer .titles h1 {
+                text-align: center;
+                font-size: 30px;
+            }
+            .aboutcontainer .titles .button {
+                text-align: center;
+            }
+            .aboutcontainer .titles .button a {
+                padding: 6px 15px;
+                font-size: 16px;
+            }
+        }
+
+        .box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+    flex-wrap: wrap;
+}
+.card{
+	height: 365px;
+	width: 335px;
+	padding: 20px 35px;
+	background: #FF61F5;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.card i{
+    background-color: azure;
+	font-size: 40px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: hsl(0, 0%, 100%);
+
+}
+h5{
+	color: white;
+	font-size: 23px;
+	margin-bottom: 15px;
+}
+.pra p{
+	color: #fcfc;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+}
+.card .button{
+	background-color:hsl(0, 0%, 100%);
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 22px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+.card .button:hover{
+	background-color: transparent;
+	border: 2px solid hsl(0, 0%, 100%);
+	cursor: pointer;
+}
+.serviceabout {
+    background-color: #161C31;
+    display: block;
+}
+.serImg1 {
+    padding:2em
+    }
+.serImg1 div {
+    width:230px;
+    padding:5px}
+.serImg1 div h4 {
+    font-size:1em
+}
+#serviceIcon {
+    display:none
+}
+#promoCon2 {
+    margin:2em
+}
+#promoCon2 p {
+    margin:5px
+}
+@media screen and (min-width: 375px){
+#serviceImg {
+    display:flex;
+    flex-wrap:wrap;
+    padding-bottom:3em}
+}
+        </style>
+</head>
+<body>
+	<h1 class="hidden">The Realm Website</h1>
+	<div id="siteContainer">
+		<h1 class="hidden">The Realm Inc.</h1>
+	<div id="siteContainer">
+		<header class="mainHeader">
+            <div class="logoCon"><img src="images/Dark logo.svg" alt="logo" ></div>
+			
+            <div class="headerCon">
+            	<div class="menuContainer">
+					<button id="menubutton"><img src="images/burger.png" width="50px" ></button>
+					<nav class="navCon">
+						<h2 class="hidden">Main Navigation</h2>
+						<ul class="burgerCon">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="work.html">Work</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+            	
+            </div>
+     	</header>
+
+		<body>
+            <div class="section">
+                <div class="aboutcontainer">
+
+                    <div class="content">
+                        <div class="article">
+                            <h3>Headingipsumdolorsit amet
+                                consecteturadipiscingelit</h3>
+                            <p>Tagline sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua</p>
+                                <P>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit, sed do eiusmod tempor incididunt utlabore et
+                                    dolore magna aliqua. Ut enim ad minim veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut
+                                    aliquip ex ea commodo consequat. 
+                                </P>
+                            <div class="button">
+                                <a href="">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <img src="images/Small image with just girl.png" width="300px" height="300px">
+                    </div>
+                </div>
+                <section class="serviceabout">
+                <h2>What Are We Presenting?</h2>
+                <p>Something we believe are very important to connect us with our clients because they are also what they believe. We would like to connect what we believe to the world and make it REAL</p>
+					<div id="serviceImg">
+						<div class="serImg1">
+							<h4>Trustworthy</h4>
+							<div>
+								<p>We put our 101% hearts to enable others to understand what our works can be beneficial to our clients honestly</p></div>
+							
+						</div>
+						<div class="serImg1">
+							<h4>Uniqueness</h4>
+							<div>
+								
+								<p>We know our value and how it connects us with our clients. We believe that all make the difference</p></div>
+						</div>
+						<div class="serImg1">
+							<h4>Creative</h4>
+							<div>
+								
+								<p>We are all passionate about our specialties and excited to show them to the world. We want our projects to be something new</p></div>
+						</div>
+						<div class="serImg1">
+							<h4>Valuable</h4>
+							<div>
+								
+								<p>We believe we can provide what our clients need and with the same value of what they are looking for</p></div>
+						</div>	
+                    </section>
+					</div>
+                    <h2>Get To Know Our Team</h2>
+                    <p>We are creative people with a lot of passion to build up our specialties in various ways</p>
+                <div class="box">
+                    
+			<div class="card">
+				<i><img src="images/globe.svg" width="100px" height="50px"></i>
+				<h5>Member Name</h5>
+				<div class="pra">
+					<p>Headline sed do eiusmod tempor
+                        incididunt utlabore et dolore</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="#">Read More</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<i class="far fa-user"></i>
+				<h5>Member Name</h5>
+				<div class="pra">
+					<p>Headline sed do eiusmod tempor
+                        incididunt utlabore et dolore</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="#">Read More</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<i class="far fa-bell"></i>
+				<h5>Member Name</h5>
+				<div class="pra">
+					<p>Headline sed do eiusmod tempor
+                        incididunt utlabore et dolore</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="#">Read More</a>
+					</p>
+                    		<div class="box">
+			<div class="card">
+				<i class="fas fa-bars"></i>
+				<h5>Member Name</h5>
+				<div class="pra">
+					<p>Headline sed do eiusmod tempor
+                        incididunt utlabore et dolore</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="#">Read More</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<i class="far fa-user"></i>
+				<h5>Member Name</h5>
+				<div class="pra">
+					<p>Headline sed do eiusmod tempor
+                        incididunt utlabore et dolore</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="#">Read More</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<i class="far fa-bell"></i>
+				<h5>Member Name</h5>
+				<div class="pra">
+					<p>Headline sed do eiusmod tempor
+                        incididunt utlabore et dolore</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="#">Read More</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+				</div>
+			</div>
+            <div class="box">
+                
+                <div class="card">
+                    <i class="fas fa-bars"></i>
+                    <h5>Member Name</h5>
+                    <div class="pra">
+                        <p>Headline sed do eiusmod tempor
+                            incididunt utlabore et dolore</p>
+    
+                        <p style="text-align: center;">
+                            <a class="button" href="#">Read More</a>
+                        </p>
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <i class="far fa-user"></i>
+                    <h5>Member Name</h5>
+                    <div class="pra">
+                        <p>Headline sed do eiusmod tempor
+                            incididunt utlabore et dolore</p>
+    
+                        <p style="text-align: center;">
+                            <a class="button" href="#">Read More</a>
+                        </p>
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <i class="far fa-bell"></i>
+                    <h5>Member Name</h5>
+                    <div class="pra">
+                        <p>Headline sed do eiusmod tempor
+                            incididunt utlabore et dolore</p>
+    
+                        <p style="text-align: center;">
+                            <a class="button" href="#">Read More</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <section id="video">
+            <video src="" id="mainVideo" autoplay poster="images/Bootcamp_g13-logo.svg"> </video>
+        </section>
+        <div id="volume_controls">
+            <a onclick="playPause()" class="controlCont"><img src="images/play.png" alt="Play/Pause"></a>
+            <a onclick="stopVideo()" class="controlCont"><img src="images/stop.png" alt="Stop"></a>
+            <a onclick="decreaseVolume()" class="controlCont"><img src="images/vDown.png" alt="Volume Down"></a>
+            <a onclick="increaseVolume()" class="controlCont"><img src="images/vUp.png" alt="Volume Up"></a>
+            <a onclick="muteVolume()" class="controlCont"><img src="images/mute.png" alt="Mute"></a>
+          </div>
+		</div>
+        
+	</div>
+    
+    </div>			
+        </body>
+        <footer>
+			<div class="mainHeader">
+		            <div class="logoCon"><img src="images/Dark logo.svg" alt="logo" width="30px" height="30px" >
+					</div>
+		            <div class="headerCon">
+		            	
+		            	
+			            <nav class="navCon">
+			                <h2 class="hidden">Main Navigation</h2>
+			                <ul class="burgerCon">
+			                    <li><a href="index.html">Home</a></li>
+			                    <li><a href="about.html">About</a></li>
+			                    <li><a href="work.html">Work</a></li>
+			                    <li><a href="contact.html">Contact</a></li>
+			                </ul>
+			            </nav>
+
+						<nav class="socialCon">
+		            		<ul>
+		            			<li><img src="images/facebook.svg" width="30px"></li>
+		            			<li><img src="images/twitter.svg"width="30px"></li>
+		            			<li><img src="images/github.svg"width="30px"></li>
+		            			<li><img src="images/youtube.svg"width="30px"></li>
+		            		</ul>
+		            	</nav>
+		            </div>
+		    </div> 
+			<hr>
+				
+				<p>© 2022 TheRealm Inc. All rights reserved.</p>
+
+		</footer>
+	</div> <!--closes siteContainer-->
+	
+	
+	<script src="js/main.js"></script>
+	<script src="js/html5shiv.js"></script>
+	<script src="js/burger.js"></script>
+</body>
+</html>
