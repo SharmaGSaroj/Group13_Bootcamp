@@ -86,6 +86,8 @@ nav a:hover
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 24px;
+    padding-left: 48px;
+    padding-right: 48px;
   
 
 
@@ -138,7 +140,9 @@ padding-top: 48px;
 }
 .Job {
   background-color: #EBFCFF;
-  height: 748px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+
 
 }
 .sectionheading{
@@ -164,41 +168,50 @@ text-align: center;
 color: #161C31;
 opacity: 66%;
 }
-.Work-Area{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
-    gap: 20px;
-    justify-items: center;
-    padding-left: 100px;
-    padding-right: 100px;
-    margin-top: 64px;
-    padding-bottom: 48px;
-   align-content: center;
+
+.services-grid{
+  padding-left: 48px;
+  padding-right: 48px;
+  margin-bottom: 64px;
+  box-sizing: border-box;
+  border: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  gap: 24px;
+
 }
-.iconcard{
-    width: 296px;
-    height: 268px;
-    border: none;
-   background-color: white;
-   border-radius: 12px;
-    position: relative;
+
+.services-grid-item{
+  padding: 32px;
+  box-sizing: border-box;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  border: none;
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  height: auto;
+  align-items: center;
+  
 }
-.iconcard img {
-    align-content: center;
-    margin-top: 64px;
-    padding-left: 104px;
+
+.icon1{
+  width: 64px;
+  height: 64px;
+  align-self: center;
 }
-.cardheading{
-  font-family: 'Manrope', sans-serif;
-    align-content: center;
-    margin-top: 48px;
-    text-align: center;
-    color: #161C31;
-    font-size: 24px;
-    font-weight:500;
+
+.card-content{
+  padding: 24px;
+  color: #161c31;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  line-height: 140%;
 }
+
 .clients{
   height: auto;
 
@@ -485,8 +498,8 @@ color: #161C31;
     background-color: #161C31;
     padding-left: 48px;
     padding-right: 48px;
-    padding-top: 64px;
-    padding-bottom: 64px;
+    padding-top: 48px;
+    padding-bottom: 160px;
 }
 
 .projects-grid{
@@ -569,11 +582,6 @@ color: #161C31;
   transition: 0.3s;
 }
 
-.link-image:hover{
-
- 
-}
-
 
 
 
@@ -617,6 +625,7 @@ color: #161C31;
   font-size: 18px;
   font-weight: 800;
 }
+
 .ctf{
   background-color: #5E29D6;
   height: 563px;
