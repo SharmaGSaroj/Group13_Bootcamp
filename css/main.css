@@ -32,11 +32,11 @@ nav ul li
 {
   display: inline-block;
   list-style: none;
-  margin: 20px 30px;
   font-family: 'Manrope', sans-serif;
   color: white;
   font-size: 16px;
   font-weight: medium;
+  margin: 20px 30px;
 }
 nav a
 {
@@ -77,15 +77,15 @@ nav a:hover
     height: 100vh;
     text-align: center;
     color: #fff;
-    padding-top: 96px;
-    background-image: url(../images/full\ image\ with\ logo.png);
-    height: 700px;
+    padding-top: 130px;
+    background: url(../images/full\ image\ with\ logo.png) no-repeat;
+    height: 630px;
     background-position: center;
     text-align: left;
     color: #fff;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    gap: 24px;
   
 
 
@@ -105,7 +105,7 @@ padding-left: 48px;
 .herobody{
 font-family: 'Manrope', sans-serif;
 font-style: normal;
-font-weight: 400;
+font-weight: 500;
 font-size: 24px;
 line-height: 150.5%;
 text-align: left;
@@ -132,6 +132,7 @@ padding-top: 48px;
   font-size: 18px;
   font-weight: bold;
   width: auto;
+  margin-top: 24px;
 
 
 }
@@ -201,23 +202,167 @@ opacity: 66%;
 .clients{
   height: auto;
 
+
 }
 
 .cilents-name{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 24px;
   justify-content: space-evenly;
   justify-items: center;
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 48px;
-  padding-bottom: 48px;
+  padding-bottom: 64px;
 }
-.client img{
-  width: 200px;
+
+.client1 {
+  width: 120px;
+  height: 120px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background: url(../images/client\ logo\ 1.svg) no-repeat;
+  background-size: 120px 120px;
+  transition: 0.3s;
+
 }
+
+.client1:hover {
+
+  background: url(../images//client\ logo\ hover\ 1.svg) no-repeat;
+  background-size: 120px 120px;
+  
+}
+
+.client2 {
+  width: 120px;
+  height: 120px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background: url(../images/client\ logo\ 2.svg) no-repeat;
+  background-size: 120px 120px;
+  transition: 0.3s;
+
+}
+
+.client2:hover {
+
+  background: url(../images//client\ logo\ hover\ 2.svg) no-repeat;
+  background-size: 120px 120px;
+  
+}
+
+.client3 {
+  width: 120px;
+  height: 120px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background: url(../images/client\ logo\ 3.svg) no-repeat;
+  background-size: 120px 120px;
+  transition: 0.3s;
+
+}
+
+.client3:hover {
+
+  background: url(../images//client\ logo\ hover\ 3.svg) no-repeat;
+  background-size: 120px 120px;
+  
+}
+
+.client4 {
+  width: 120px;
+  height: 120px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background: url(../images/client\ logo\ 4.svg) no-repeat;
+  background-size: 120px 120px;
+  transition: 0.3s;
+
+}
+
+.client4:hover {
+
+  background: url(../images//client\ logo\ hover\ 4.svg) no-repeat;
+  background-size: 120px 120px;
+  
+}
+
+.client5 {
+  width: 120px;
+  height: 120px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background: url(../images/client\ logo\ 5.svg) no-repeat;
+  background-size: 120px 120px;
+  transition: 0.3s;
+
+}
+
+.client5:hover {
+
+  background: url(../images//client\ logo\ hover\ 5.svg) no-repeat;
+  background-size: 120px 120px;
+  
+}
+
+.client6 {
+  width: 120px;
+  height: 120px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background: url(../images/client\ logo\ 6.svg) no-repeat;
+  background-size: 120px 120px;
+  transition: 0.3s;
+
+}
+
+.client6:hover {
+
+  background: url(../images//client\ logo\ hover\ 6.svg) no-repeat;
+  background-size: 120px 120px;
+  
+}
+
+.client7 {
+  width: 120px;
+  height: 120px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background: url(../images/client\ logo\ 7.svg) no-repeat;
+  background-size: 120px 120px;
+  transition: 0.3s;
+
+}
+
+.client7:hover {
+
+  background: url(../images//client\ logo\ hover\ 7.svg) no-repeat;
+  background-size: 120px 120px;
+  
+}
+
+.client8 {
+  width: 120px;
+  height: 120px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background: url(../images/client\ logo\ 8.svg) no-repeat;
+  background-size: 120px 120px;
+  transition: 0.3s;
+
+}
+
+.client8:hover {
+
+  background: url(../images//client\ logo\ hover\ 8.svg) no-repeat;
+  background-size: 120px 120px;
+  
+}
+
+
+
 
 .text{
   font-family: 'Manrope', sans-serif;
@@ -242,8 +387,9 @@ padding-top: 48px;
   justify-items: center;
   padding-left: 32px;
   padding-right: 32px;
-  padding-top: 64px;
+  padding-top: 32px;
   padding-bottom:106px;
+  margin-top: 48px;
 
 }
 
@@ -254,10 +400,7 @@ padding-top: 48px;
   border-radius: 12px;
   opacity: 1;
   align-items: center;
-  padding-left: 32px;
-  padding-right: 32px;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding: 32px;
  
 }
 
@@ -266,7 +409,6 @@ padding-top: 48px;
   height: 32;
 padding-left: 164px;
 padding-bottom:  32px;
-padding-top:  32px;
 
 }
 .comment h4{
@@ -299,7 +441,7 @@ font-size: 16px;
 line-height: 165%;
 text-align: center;
 color: #161C31;
-padding-top: 48px;
+padding-top: 60px;
 }
 .postion{
   font-family: 'Manrope';
@@ -310,6 +452,7 @@ line-height: 165%;
 text-align: center;
 color: #161C31;
 }
+
 .testmonialbutton{
   align-items: center;
   padding: 16px 42px;
@@ -325,25 +468,118 @@ color: #161C31;
   font-family: 'Manrope';
   font-size: 18px;
   font-weight: 800;
+  transition: 0.3s;
 
   }
 
-.protfolio{
-    height: 1427px;
+  .testmonialbutton:hover{
+    
+    background: #5E29D6;
+    opacity: 84%;
+    color: #fff;
+  }
+  
+
+.portfolio{
+   /* height: 1427px; */
     background-color: #161C31;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-top: 64px;
+    padding-bottom: 64px;
 }
-.projects{
-  width: 1255px;
-  height: 1081px;
+
+.projects-grid{
+  padding-left: 48px;
+  padding-right: 48px;
+  margin-bottom: 64px;
   box-sizing: border-box;
   border: none;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 10px;
-  justify-content: space-evenly;
-  justify-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  gap: 24px;
+
 }
+
+.projects-grid-item{
+  padding: 0px;
+  box-sizing: border-box;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  border: none;
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  height: auto;
+  align-content: center;
+  
+}
+
+.card-thumbnail{
+  width: 100%;
+}
+
+.card-content{
+  padding: 24px;
+  color: #161c31;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+}
+
+.casestudy-button{
+  background-color: #FFFFFF;
+  color: #161c31ca;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: left;
+  border: none;
+  box-align: center;
+  vertical-align: middle;
+  
+}
+
+.casestudy-button > span {
+
+  transition: 0.3s
+
+}
+
+.casestudy-button:hover > img {
+
+  margin-left: 8px;
+
+}
+
+.casestudy-button:hover > span {
+
+  text-decoration: underline;
+
+}
+
+.link-image{
+  width: 22px;
+  height: 22px;
+  vertical-align: middle;
+  margin-left: 2px;
+  transition: 0.3s;
+}
+
+.link-image:hover{
+
+ 
+}
+
+
+
+
+
+
+
 .sectionheading-1{
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -357,15 +593,13 @@ color: #161C31;
   color:white;
 
 }
-.project{
-  border-radius:15px;
-  color: white;
-  background-color: #ccc;
+.card{
+  border-radius:12px;
+  color: #161C31;
+  background-color: #fff;
   height:375px;
 }
-.project img{
 
-}
 
 .protfoliobutton{
   align-items: center;
