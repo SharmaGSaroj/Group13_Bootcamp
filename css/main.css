@@ -72,6 +72,10 @@ nav a:hover
 
 
 }
+
+
+/* hero section */
+
 .hero {
    
     height: 100vh;
@@ -101,7 +105,7 @@ font-style: normal;
 line-height: 100.5%;
 letter-spacing: -0.02em;
 text-align: left;
-padding-left: 48px;
+
 
 }
 .herobody{
@@ -111,20 +115,22 @@ font-weight: 500;
 font-size: 24px;
 line-height: 150.5%;
 text-align: left;
-padding-left: 48px;
 padding-top: 48px;
+padding-bottom: 64px;
+
 }
 .heroimg{
     height: auto;
   }
-.primarybtn{
 
-  padding: 16px 24px;
+
+  .primarybtn{
+
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 18px;
+  padding-bottom: 18px;
   gap: 9.41px; 
-  position: absolute;
-  height: 57px;
-  left: 2.5%;
-  right: 78.89%;
   top: 570px;
   background: #00CBF3;
   border-radius: 48px;
@@ -138,6 +144,11 @@ padding-top: 48px;
 
 
 }
+
+
+/* services section */
+
+
 .Job {
   background-color: #EBFCFF;
   padding-top: 64px;
@@ -185,7 +196,7 @@ opacity: 66%;
 .services-grid-item{
   padding: 32px;
   box-sizing: border-box;
-  margin-top: 24px;
+  margin-top: 64px;
   margin-bottom: 24px;
   border: none;
   background-color: #FFFFFF;
@@ -198,7 +209,6 @@ opacity: 66%;
 .icon1{
   width: 64px;
   height: 64px;
-  align-self: center;
 }
 
 .card-content{
@@ -211,6 +221,9 @@ opacity: 66%;
   text-align: center;
   line-height: 140%;
 }
+
+
+/* Clients section */
 
 .clients{
   height: auto;
@@ -482,6 +495,7 @@ color: #161C31;
   font-size: 18px;
   font-weight: 800;
   transition: 0.3s;
+  margin-bottom: 48px;
 
   }
 
@@ -624,57 +638,6 @@ color: #161C31;
   font-family: 'Manrope';
   font-size: 18px;
   font-weight: 800;
-}
-
-.ctf{
-  background-color: #5E29D6;
-  height: 563px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-}
-.ctfheading
-{
-  color: white;
-font-size: 48px;
-font-family: 'Poppins', sans-serif;
-font-weight: 700;
-font-style: normal;
-line-height: 160%;
-letter-spacing: -0.02em;
-text-align: left;
-padding: 20px 42px;
-}
-.ctfbody{
-  padding: 16px 42px;
-  font-family: 'Manrope', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 141.5%;
-  text-align: left;
-  padding-left: 48px;
-  padding-top: 48px;
-  color: white;
-  left: 6.53%;
-    right: 78.89%;
-}
-.ctfbutton{
-  padding: 16px 42px;
-  gap: 9.41px; 
-  position: absolute;
-  height: 57px;
-  left: 6.53%;
-  right: 78.89%;
-  background: #00CBF3;
-  border-radius: 48px;
-  border: none;
-  font-family: 'Manrope', sans-serif;
-  color: white;
-  font-size: 14px;
-  font-weight: bold;
-  width: auto;
-
 }
 
 
@@ -855,6 +818,7 @@ color: #161C31;
   text-align: center;
   padding-bottom: 30px;
 }
+
 .sectionheading-1{
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -868,4 +832,69 @@ color: #161C31;
   color:white;
 }
 
-}
+
+/* CTA section */
+
+.CTA-section {
+   
+  height: 100vh;
+  text-align: center;
+  color: #fff;
+  padding-top: 130px;
+  background: #713BEB;
+  height: 430px;
+  background-position: center;
+  text-align: left;
+  color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  padding-left: 48px;
+  padding-right: 48px; }
+
+.CTA-heading{
+  color: white;
+  font-size: 48px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 100.5%;
+  letter-spacing: -0.02em;
+  text-align: left;
+  
+  }
+  .CTA-body{
+  font-family: 'Manrope', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150.5%;
+  text-align: left;
+  padding-top: 48px;
+  padding-bottom: 64px;
+  
+  }
+  
+  .heroimg{
+      height: auto;
+    }
+
+
+    .CTA-button{
+  
+      padding-left: 32px;
+      padding-right: 32px;
+      padding-top: 18px;
+      padding-bottom: 18px;
+      gap: 9.41px; 
+      top: 570px;
+      background: #00CBF3;
+      border-radius: 48px;
+      border: none;
+      font-family: 'Manrope', sans-serif;
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      width: auto;
+      margin-top: 24px; 
+    }
