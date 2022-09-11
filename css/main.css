@@ -77,15 +77,16 @@ nav a:hover
     height: 100vh;
     text-align: center;
     color: #fff;
-    padding-top: 50px;
+    padding-top: 96px;
     background-image: url(../images/full\ image\ with\ logo.png);
     height: 700px;
     background-position: center;
-    text-align: center;
+    text-align: left;
     color: #fff;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+  
 
 
 }
@@ -95,8 +96,7 @@ font-size: 75px;
 font-family: 'Poppins', sans-serif;
 font-weight: 700;
 font-style: normal;
-font-size: 84px;
-line-height: 90.5%;
+line-height: 100.5%;
 letter-spacing: -0.02em;
 text-align: left;
 padding-left: 48px;
@@ -105,9 +105,9 @@ padding-left: 48px;
 .herobody{
 font-family: 'Manrope', sans-serif;
 font-style: normal;
-font-weight: 700;
+font-weight: 400;
 font-size: 24px;
-line-height: 141.5%;
+line-height: 150.5%;
 text-align: left;
 padding-left: 48px;
 padding-top: 48px;
@@ -117,19 +117,19 @@ padding-top: 48px;
   }
 .primarybtn{
 
-  padding: 16px 42px;
+  padding: 16px 24px;
   gap: 9.41px; 
   position: absolute;
   height: 57px;
-  left: 6.53%;
+  left: 2.5%;
   right: 78.89%;
-  top: 645px;
+  top: 570px;
   background: #00CBF3;
   border-radius: 48px;
   border: none;
   font-family: 'Manrope', sans-serif;
   color: white;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: bold;
   width: auto;
 
@@ -137,7 +137,7 @@ padding-top: 48px;
 }
 .Job {
   background-color: #EBFCFF;
-  height: 700px;
+  height: 748px;
 
 }
 .sectionheading{
@@ -196,6 +196,7 @@ opacity: 66%;
     text-align: center;
     color: #161C31;
     font-size: 24px;
+    font-weight:500;
 }
 .clients{
   height: auto;
