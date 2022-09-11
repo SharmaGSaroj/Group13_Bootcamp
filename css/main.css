@@ -14,6 +14,7 @@
   display: none;
 }
 .topsection {
+
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -79,6 +80,7 @@ nav a:hover
 .hero {
    
     height: 100vh;
+    scroll-behavior: smooth;
     text-align: center;
     color: #fff;
     padding-top: 130px;
@@ -96,27 +98,54 @@ nav a:hover
 
 
 }
-.heroheading{
-color: white;
-font-size: 75px;
-font-family: 'Poppins', sans-serif;
-font-weight: 700;
-font-style: normal;
-line-height: 100.5%;
-letter-spacing: -0.02em;
-text-align: left;
+
+
+
+.hero-with-purple-bg {
+   
+  height: 100vh;
+  scroll-behavior: smooth;
+  text-align: center;
+  color: #fff;
+  padding-top: 130px;
+  background: #5E29D6;
+  height: 630px;
+  background-position: center;
+  text-align: left;
+  color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  padding-left: 48px;
+  padding-right: 48px;
 
 
 }
+.heroheading{
+  scroll-behavior: smooth;
+  color: white;
+  font-size: 75px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 100.5%;
+  letter-spacing: -0.02em;
+  text-align: left;
+
+
+}
+
+
 .herobody{
-font-family: 'Manrope', sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 150.5%;
-text-align: left;
-padding-top: 48px;
-padding-bottom: 64px;
+  font-family: 'Manrope', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150.5%;
+  text-align: left;
+  padding-top: 48px; 
+  padding-bottom: 64px;
+  scroll-behavior: smooth;
 
 }
 .heroimg{
@@ -141,6 +170,7 @@ padding-bottom: 64px;
   font-weight: bold;
   width: auto;
   margin-top: 24px;
+  scroll-behavior: smooth;
 
 
 }
@@ -153,6 +183,7 @@ padding-bottom: 64px;
   background-color: #EBFCFF;
   padding-top: 64px;
   padding-bottom: 64px;
+  scroll-behavior: smooth;
 
 
 }
@@ -164,10 +195,11 @@ padding-bottom: 64px;
   font-size: 48px;
   line-height: 120%;
   text-align: center;
-  padding-left: 48px;
+  /*padding-left: 48px;*/
   padding-top: 84px;
   padding-bottom: 32px;
   color: #161C31;
+  scroll-behavior: smooth;
 }
 .sectionbody{
   font-family: 'Manrope', sans-serif;
@@ -178,6 +210,7 @@ line-height: 140%;
 text-align: center;
 color: #161C31;
 opacity: 66%;
+scroll-behavior: smooth;
 }
 
 .services-grid{
@@ -190,29 +223,31 @@ opacity: 66%;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   align-items: center;
   gap: 24px;
+  text-align: center;
+  scroll-behavior: smooth;
 
 }
 
 .services-grid-item{
-  padding: 32px;
+  text-align: center;
   box-sizing: border-box;
+  Padding: 32px 32px 0px 32px;
   margin-top: 64px;
-  margin-bottom: 24px;
   border: none;
   background-color: #FFFFFF;
   border-radius: 12px;
   height: auto;
   align-items: center;
+  scroll-behavior: smooth;
   
 }
 
 .icon1{
-  width: 64px;
-  height: 64px;
+  width: 84px;
+  height: 84px;
 }
 
 .card-content{
-  padding: 24px;
   color: #161c31;
   font-family: 'Manrope';
   font-style: normal;
@@ -220,13 +255,13 @@ opacity: 66%;
   font-size: 24px;
   text-align: center;
   line-height: 140%;
+  scroll-behavior: smooth;
 }
 
 
-/* Clients section */
-
 .clients{
   height: auto;
+  scroll-behavior: smooth;
 
 
 }
@@ -241,6 +276,7 @@ opacity: 66%;
   padding-right: 100px;
   padding-top: 48px;
   padding-bottom: 64px;
+  scroll-behavior: smooth;
 }
 
 .client1 {
@@ -251,6 +287,7 @@ opacity: 66%;
   background: url(../images/client\ logo\ 1.svg) no-repeat;
   background-size: 120px 120px;
   transition: 0.3s;
+  scroll-behavior: smooth;
 
 }
 
@@ -269,6 +306,7 @@ opacity: 66%;
   background: url(../images/client\ logo\ 2.svg) no-repeat;
   background-size: 120px 120px;
   transition: 0.3s;
+  scroll-behavior: smooth;
 
 }
 
@@ -287,6 +325,7 @@ opacity: 66%;
   background: url(../images/client\ logo\ 3.svg) no-repeat;
   background-size: 120px 120px;
   transition: 0.3s;
+  scroll-behavior: smooth;
 
 }
 
@@ -405,23 +444,43 @@ padding-top: 48px;
   height:1106px;
  
 }
-.Review{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+
+.testimmonial-sectionheading
+{
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  text-align: center;
+  /*padding-left: 48px;*/
+  padding-top: 84px;
+  padding-bottom: 32px;
+  color: #161C31;
+  scroll-behavior: smooth;
+}
+
+.testimonial-grid{
+  padding-left: 48px;
+  padding-right: 48px;
+  margin-bottom: 64px;
+  margin-top: 64px;
+  margin-bottom: 64px;
+  text-align: center;
   justify-content: space-evenly;
-  justify-items: center;
-  padding-left: 32px;
-  padding-right: 32px;
-  padding-top: 32px;
-  padding-bottom:106px;
-  margin-top: 48px;
+  box-sizing: border-box;
+  border: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  gap: 24px;
+
 
 }
 
-.comment {
-  width: 403px;
-  height: 400px;
+.testimonial-grid-item {
+  text-align: center;
+  
   background: #F5FDFF 0% 0% no-repeat padding-box;
   border-radius: 12px;
   opacity: 1;
@@ -429,55 +488,53 @@ padding-top: 48px;
   padding: 32px;
  
 }
+/*
+.testimonial-grid-item > img {
+  align-self: center
+}*/
 
-.comment img{
-  width: auto;
-  height: 32;
-padding-left: 164px;
-padding-bottom:  32px;
-
+.quote{
+  width: 60px;
+  height: 60px;
 }
-.comment h4{
-  font-family: 'Manrope';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-text-align: center;
-line-height: 141.5%;
-padding-bottom: 16px;
 
-}
-.comments{
+.testimonial-heading{
   font-family: 'Manrope';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 165%;
-text-align: center;
-padding-bottom: 16px;
-padding-bottom: 24px;
-color: #161C31;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  line-height: 141.5%;
+  padding-bottom: 16px;
+  padding-top: 24px;
 
 }
-.comment h5{
+
+.testimonial-body{
   font-family: 'Manrope';
-font-style: normal;
-font-weight:800;
-font-size: 16px;
-line-height: 165%;
-text-align: center;
-color: #161C31;
-padding-top: 60px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 165%;
+  text-align: center;
+  padding-bottom: 16px;
+  padding-bottom: 24px;
+  color: #161C31;
+  opacity: 66%;
+
 }
-.postion{
+
+.testimonial-secondary-heading{
   font-family: 'Manrope';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 165%;
-text-align: center;
-color: #161C31;
+  font-style: normal;
+  font-weight:800;
+  font-size: 18px;
+  line-height: 165%;
+  text-align: center;
+  color: #161C31;
+  padding-top: 48px;
 }
+
 
 .testmonialbutton{
   align-items: center;
@@ -601,7 +658,6 @@ color: #161C31;
 
 
 
-
 .sectionheading-1{
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -640,7 +696,69 @@ color: #161C31;
   font-weight: 800;
 }
 
+/* CTA section */
 
+.CTA-section {
+   
+  text-align: center;
+  color: #fff;
+  padding-top: 130px;
+  background: #713BEB;
+  background-position: center;
+  text-align: left;
+  color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  padding-left: 96px;
+  padding-right: 0px; }
+
+.CTA-heading{
+  color: white;
+  font-size: 48px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 100.5%;
+  letter-spacing: -0.02em;
+  text-align: left;
+  
+  }
+  .CTA-body{
+  font-family: 'Manrope', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150.5%;
+  text-align: left;
+  padding-top: 48px;
+  padding-bottom: 64px;
+  
+  }
+  
+  .CTA-image{
+      height: auto;
+    }
+
+
+  .CTA-button{
+  
+      padding-left: 32px;
+      padding-right: 32px;
+      padding-top: 18px;
+      padding-bottom: 18px;
+      gap: 9.41px; 
+      top: 570px;
+      background: #00CBF3;
+      border-radius: 48px;
+      border: none;
+      font-family: 'Manrope', sans-serif;
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      width: auto;
+      margin-top: 24px; 
+    }
 
 .hamburger {
   display: none;
@@ -831,70 +949,73 @@ color: #161C31;
   padding-bottom: 32px;
   color:white;
 }
+}
 
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
 
-/* CTA section */
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
 
-.CTA-section {
-   
-  height: 100vh;
-  text-align: center;
-  color: #fff;
-  padding-top: 130px;
-  background: #713BEB;
-  height: 430px;
-  background-position: center;
-  text-align: left;
-  color: #fff;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 24px;
-  padding-left: 48px;
-  padding-right: 48px; }
-
-.CTA-heading{
-  color: white;
-  font-size: 48px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  line-height: 100.5%;
-  letter-spacing: -0.02em;
-  text-align: left;
-  
-  }
-  .CTA-body{
-  font-family: 'Manrope', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 150.5%;
-  text-align: left;
-  padding-top: 48px;
+.problem-para{
+  background-color: #161c31;
+  padding-top: 64px;
   padding-bottom: 64px;
+  scroll-behavior: smooth;
+}
+
+.problem-grid{
+  padding-left: 48px;
+  padding-right: 48px;
+  margin-bottom: 64px;
+  box-sizing: border-box;
+  border: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  gap: 24px;
+}
+
+.problem-grid-item{
+  text-align: center;
+  box-sizing: border-box;
+  Padding: 0px 48px 0px 48px;
+  border: none;
+  height: auto;
+  align-items: left;
+  scroll-behavior: smooth;
   
-  }
-  
-  .heroimg{
-      height: auto;
-    }
+}
 
 
-    .CTA-button{
+.problem-title{
   
-      padding-left: 32px;
-      padding-right: 32px;
-      padding-top: 18px;
-      padding-bottom: 18px;
-      gap: 9.41px; 
-      top: 570px;
-      background: #00CBF3;
-      border-radius: 48px;
-      border: none;
-      font-family: 'Manrope', sans-serif;
-      color: white;
-      font-size: 18px;
-      font-weight: bold;
-      width: auto;
-      margin-top: 24px; 
-    }
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 120%;
+  text-align: left;
+  /*padding-left: 48px;*/
+  padding-top: 16px;
+  padding-bottom: 32px;
+  color: #FFFFFF;
+  scroll-behavior: smooth;
+}
+.problem-heading{
+  font-family: 'Manrope', sans-serif;
+font-style: normal;
+font-weight:500;
+font-size: 18px;
+line-height: 140%;
+text-align: left;
+color: #fff;
+opacity: 66%;
+scroll-behavior: smooth;
+}
