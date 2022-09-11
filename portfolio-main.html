@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -5,20 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/reset.css" media="screen" />
     <link rel="stylesheet" href="css/main.css" media="screen" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <title>Web Page Scaffold</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@500;600;700&display=swap" rel="stylesheet">
+    <title>The Realm Main Page</title>
   </head>
   <body>
-    <h1 class="hidden">Homepage</h1>
+    <h1 class="hidden">header</h1>
       <div class="sitecontainer">
         <section class="header" id="header">
           <div class="topsection">
-            <div class="logo"><p>logo</p></div>
+            <div class="logo">
+                <img src="images/White logo.svg " alt="">
+            </div>
             <nav class="nav-bar">
                 <h3 class="hidden">Navigation</h3>
                 <ul class="menu">
@@ -26,35 +29,40 @@
                   <li class="nav-link"><a href=""></a>About Us</li>
                   <li class="nav-link"><a href=""></a>Work</li>
                   <li class="nav-link"><a href=""></a>Contact</li>
-                  <button type="submit" class="contactus">Work With Us</button>
                 </ul>
             </nav>
-            
+            <button type="submit" class="secondarybtn">Work With Us</button>
             </div>
             </section>
-        <section class="Welcome">
-            <div class="welcometext">
-              <p>Welcome text</p>
-              <button type="submit" class="promobtn">See our Work</button>
-            </div>
-  
-            <div class="Mainbeer"><p>Image</p></div>
-          </section>
-      
-         <h3>Our Portfolio</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus esse culpa corrupti atque unde facere id ratione soluta! Velit quam, similique magnam laudantium repellendus eius temporibus? Officia, ullam! Architecto, totam.</p>
+        <section class="hero">
+          <div class="welcometext">
+            <h3 class="heroheading">Value-driven <br>Creative agency</h3>
+            <p class="herobody">Lots of Lots design works we had done before are going
+              to
+              show you all our 6 designers' style, personality and
+              approach</p>
+            <button type="submit" class="primarybtn">See our Work</button>
+          </div>
+          <div class="heroimg">
+            <img src="images/Small image with just girl.png" alt="">
+
+          </div>
+        </section>
             <section class="Our-Portfolio">
+              <h2 class="hidden">Our-Portfolio</h2>
+              <h3 class="Sectionheading">Our Portfolio</h3>
+          
                 <div class="tab">
-                    <button class="tablinks" onclick="openCity(event, 'London')">ALL</button>
-                    <button class="tablinks" onclick="openCity(event, 'Paris')">Services</button>
-                    <button class="tablinks" onclick="openCity(event, 'Tokyo')">Services</button>
-                    <button class="tablinks" onclick="openCity(event, 'Paris')">Services</button>
-                    <button class="tablinks" onclick="openCity(event, 'Tokyo')">Services</button>
-                  </div>
+                  <ul>
+                    <li class="is-active"><a>GFG</a></li>
+                    <li><a>Courses</a></li>
+                    <li><a>Practice</a></li>
+                    <li><a>Jobs</a></li>
+                </ul>
+                </div>
           </section>
         </div>
       </section>
       <script src="js/main.js"></script>
     </body>
   </html>
-  
